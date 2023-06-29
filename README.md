@@ -1,9 +1,9 @@
 # Autism Classification using ResNet-18
 
-This repository contains the code and resources for an Autism Classification project utilizing transfer learning with ResNet-18. The goal of this project is to develop a machine learning model that can accurately predict autism based on given input data.
+This repository contains the code and resources for an Autism Classification project utilizing transfer learning with ResNet-18. The goal of this project is to develop a machine learning model that can accurately predict autism based on Facial features.
 
 ## Dataset
-The dataset used for this project consists of images categorized into two classes: autism-positive and autism-negative. The dataset was collected from various sources and manually labeled to ensure accuracy. The images are preprocessed and formatted to be compatible with the ResNet-18 architecture.
+The dataset used for this project consists of images categorized into two classes: autistic and non_autistic. The dataset was collected from various sources and manually labeled to ensure accuracy. The images are preprocessed and formatted to be compatible with the ResNet-18 architecture.
 
 ## Model Architecture
 The ResNet-18 architecture is employed for this project, which is a deep convolutional neural network widely used for image classification tasks. The pre-trained weights of ResNet-18, trained on the ImageNet dataset, are utilized as a starting point for transfer learning. The model is fine-tuned on the autism classification dataset to adapt to the specific task.
