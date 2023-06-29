@@ -1,0 +1,10 @@
+pandas
+numpy
+cv2
+matplotlib
+seaborn
+PIL
+sklearn
+pytorch
+torch
+torchvision
