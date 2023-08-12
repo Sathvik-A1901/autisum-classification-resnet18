@@ -18,8 +18,6 @@ while True:
 
     #image='D:\\Hand-Classification-For-Autism-Diagnosis-main\\Hand-Classification-For-Autism-Diagnosis-main\\faceImage\\archive\\AutismDataset\\consolidated\\Autistic\\0001.jpg'
     img=cv2.resize(image, (nrows, ncolumns), interpolation = cv2.INTER_CUBIC)
-    print(img.shape)
-    break
     tensor_img=torch.Tensor(img)
     tensor_img=torch.permute(tensor_img, (2,0,1))
     tensor_img=torch.unsqueeze(tensor_img,dim=0)
